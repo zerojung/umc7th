@@ -1,4 +1,4 @@
-package study.domain.enums;
+package com.umc.study.domain.enums;
 
 public enum SocialType {
     KAKAO, NAVER, APPLE, GMAIL

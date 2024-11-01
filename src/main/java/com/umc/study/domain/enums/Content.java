@@ -1,4 +1,4 @@
-package study.domain.enums;
+package com.umc.study.domain.enums;
 
 public enum Content {
     KOREAN, JAPANESE, CHINESE, WESTERN, CHICKEN, SNACKS, MEAT, LUNCHBOX, NIGHT_MEAL, FAST_FOOD, DESSERT, ASIAN_FOOD

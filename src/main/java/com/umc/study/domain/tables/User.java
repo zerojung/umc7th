@@ -1,11 +1,11 @@
-package study.domain.tables;
+package com.umc.study.domain.tables;
 
 import jakarta.persistence.*;
 import lombok.*;
-import study.domain.common.BaseEntity;
-import study.domain.enums.Gender;
-import study.domain.enums.PhoneStatus;
-import study.domain.enums.SocialType;
+import com.umc.study.domain.common.BaseEntity;
+import com.umc.study.domain.enums.Gender;
+import com.umc.study.domain.enums.PhoneStatus;
+import com.umc.study.domain.enums.SocialType;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

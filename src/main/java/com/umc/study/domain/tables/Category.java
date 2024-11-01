@@ -1,9 +1,9 @@
-package study.domain.tables;
+package com.umc.study.domain.tables;
 
 import jakarta.persistence.*;
 import lombok.*;
-import study.domain.common.BaseEntity;
-import study.domain.enums.Content;
+import com.umc.study.domain.common.BaseEntity;
+import com.umc.study.domain.enums.Content;
 
 @Entity
 @Getter

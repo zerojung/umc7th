@@ -1,15 +1,15 @@
-package study.domain.tables;
+package com.umc.study.domain.tables;
 
 import jakarta.persistence.*;
 import lombok.*;
-import study.domain.common.BaseEntity;
+import com.umc.study.domain.common.BaseEntity;
 
 @Entity
 @Getter
 @Builder
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
-public class UserMission extends BaseEntity {
+public class Resign extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,7 +18,5 @@ public class UserMission extends BaseEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private User user;
-
-    private Integer hintNum;
 
 }
